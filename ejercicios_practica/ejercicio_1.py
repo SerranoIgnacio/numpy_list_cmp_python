@@ -19,7 +19,7 @@ if __name__ == '__main__':
     # Realizar una funcion lambda que eleve al cuadrado
     # el número pasado como parámetro
 
-    potencia_2 = lambda x:2**x
+    potencia_2 = lambda x:x**2
     pot_3 = potencia_2(3)
     print(pot_3)
     # 2)
@@ -36,6 +36,6 @@ if __name__ == '__main__':
     # Lista de numeros
     numeros = [1, -5, 4, 3]
 
-    numeros_potencia = list(map(lambda x:2**x, numeros))
+    numeros_potencia = list(map(lambda x:x**2, numeros))
     print(numeros_potencia)
     print("terminamos")
