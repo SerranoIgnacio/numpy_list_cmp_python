@@ -30,5 +30,6 @@ if __name__ == '__main__':
     # ¿Ya terminaron el ejercicio? ¿Por qué no prueban
     # hacer negativo alguno de los números de la lista?
     # ¿Qué sucede con isdigit? Sorprendente no?
-
+    lista_num = [int(x) if x.isdigit() is True else 0 for x in list_numeros_str]
+    print(lista_num)
     print("terminamos")
